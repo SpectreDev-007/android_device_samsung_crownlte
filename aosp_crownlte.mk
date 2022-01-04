@@ -26,7 +26,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Project Elixir stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_INCLUDE_PIXEL_CHARGER := true
-Elixir_MAINTAINER := Cyder(Lumine)
 IS_PHONE := true
 CUSTOM_BUILD_TYPE := OFFICIAL
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
